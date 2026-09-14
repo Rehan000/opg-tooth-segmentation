@@ -1,0 +1,36 @@
+# Datasets — patient radiographs and annotations are NOT redistributable.
+# Nothing under these paths may ever be committed.
+*_dataset/
+merged_opg_dataset/
+opg_dataset/
+periapical_dataset/
+data/
+images/
+labels/
+*.zip
+
+# Any manifest linking anonymised ids back to source filenames
+*manifest*.csv
+
+# Model weights and exports
+*.pt
+*.pth
+*.onnx
+runs/
+
+# Environment / credentials
+.env
+.env.*
+samconfig.toml
+*_seed.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

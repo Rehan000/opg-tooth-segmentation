@@ -1,0 +1,14 @@
+# Core
+numpy>=1.24
+scipy>=1.10
+opencv-python>=4.8
+
+# Detection / segmentation
+ultralytics>=8.3          # YOLO11m-seg
+torch>=2.2
+torchvision>=0.17
+transformers>=4.44        # Mask2Former, DINOv3, SAM2
+pycocotools>=2.0.7        # COCO mask mAP
+
+# Optional: LoRA adaptation of the DINOv3 encoder
+peft>=0.11
