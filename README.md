@@ -90,14 +90,13 @@ FDI codes reconstruct from DENTEX's quadrant and enumeration annotations as
 ## Citation
 
 ```bibtex
-@article{rehan2026delineation,
-  title   = {Detection is solved, delineation is not: what governs tooth
-             segmentation on panoramic radiographs},
-  author  = {Rehan, Muhammad and Amjad, Moaz and Ahmed, Syed Danial and
-             Adnan, Mariam and Ali, Haider},
-  journal = {Medical Image Analysis},
-  note    = {Under review},
-  year    = {2026}
+@misc{rehan2026delineation,
+  title  = {Detection is solved, delineation is not: what governs tooth
+            segmentation on panoramic radiographs},
+  author = {Rehan, Muhammad and Amjad, Moaz and Ahmed, Syed Danial and
+            Adnan, Mariam and Ali, Haider},
+  year   = {2026},
+  note   = {Preprint}
 }
 ```
 
